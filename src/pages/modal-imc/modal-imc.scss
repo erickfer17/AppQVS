@@ -1,0 +1,25 @@
+#IMC-modal {
+    background-image:url('../assets/imgs/fIMC.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    height: 100%;
+}
+#form2{
+    position: absolute;
+    opacity: 0.5;
+    width: 80%;
+   font-size: 5px;
+    margin-left: 10%;
+    color: #96005a;
+
+
+ }
+ #i{
+    $select-md-icon-color:#96005a;
+    $select-md-placeholder-color:#96005a;
+ }
+
+ 

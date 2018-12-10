@@ -1,0 +1,49 @@
+
+    #page-bienvenida {
+    
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    }
+    
+    #textobienvenida{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 0.7em;
+        color: white;
+        line-height: 2em;
+    }
+  
+    #imagenes{
+    
+        width: 100%;
+        
+        position: relative;
+    }
+    #salud{
+        width:  30%;
+        position: relative;
+      //  float: left;
+        margin-left: 10%;
+    }
+
+    #salud1{
+        width:  30%;
+        position: relative;
+        float: right;
+        margin-right: 15%;
+    }
+
+    #btnbienvenida{
+        color: white;
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        margin-left: 0%;
+    }

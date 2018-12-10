@@ -1,0 +1,17 @@
+<!--
+  Generated template for the RtestaguaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content id="page-rtestagua" [ngStyle]="{'background-image': 'url(' + fondo + ')'}">
+    <img id="personas"  src="./assets/imgs/personasresultado.png">
+    <br><br>
+    <h1 id="rta" style="color:#223d5b; text-align:center"><strong>RESULTADOS</strong></h1>
+    <H3 style="position:relative;color:#223d5b; width:70%;margin-left:15%;text-align:center">BEBER AGUA NATURAL</H3>
+    <h1  id="rta" style="font-size:250%" [ngStyle]="{'color': '' + color + ''}"> {{resultado}}</h1>
+    <p id="contenidota"><strong> {{contenido}} </strong></p>
+    <button ion-button color="light" outline style="display:inline; position:relative; width: 40%; margin-left: 30%" (click)='goToMenu()' >SIGUIENTE</button>
+</ion-content>

@@ -1,0 +1,52 @@
+<!--
+  Generated template for the PerimetroAbdominalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color='primary'>
+    <ion-title>Perimetro Abdominal</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content  id="page-perimetro-abdominal" [ngStyle]="{'background-image': 'url(' + fondoperimetro + ')'}">
+  <img id="evaluatusaludb" src="./assets/imgs/evaluatusaludb.png">
+<img id="manocorazon2" src="./assets/imgs/manocorazon.png">
+<img id="manocruz2" src="./assets/imgs/manocruz.png">
+<br><br>
+<h3 id="holaimc">¡Hola<span style="color:yellow"> {{nombre}}</span>!</h3>
+<br>
+<br>
+<h3 id="perimetrotxt" style="color:white" ><strong>PERIMETRO <br>
+ABDOMINAL</strong></h3>
+
+<br>
+<p style="color:white;font-size:110%">Tu perímetro abdominal es:</p>
+<h1 style="font-size:300%" [ngStyle]="{'color': '' + color + ''}"> {{perimetro}}</h1>
+
+<p style="color:white; font-size:120%">De acuerdo al dato tienes un</p>
+
+<h1 [ngStyle]="{'color':''+color+'' }">{{riesgo}}</h1>
+<p style="color:white; font-size:120%; width:80%;margin:auto">de padecer una o más de las siguientes enfermedades:</p>
+<br>
+<div>
+  <ion-list style="position:relative; width:70%; display:inline-block;margin:auto; font-size:110%" [ngStyle]="{'color':''+color+''}">
+        <li *ngFor="let item of lista" >
+             -{{ item.titulo }}
+             <br><br>
+        </li> 
+  </ion-list>
+  
+</div>
+
+<p style="color:white; width:80%;margin:auto">
+  {{recomendacion}} 
+</p>
+<br>
+
+
+<button ion-button color="light" outline (click)='goToMenu()'>Siguiente</button>
+
+</ion-content>

@@ -1,0 +1,65 @@
+#page-salud {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: 'center';
+}
+
+
+#estSalud{
+    position: relative;
+    display: inline;
+    margin-left: 10%;
+    width:80%;
+    margin-top: 5%;
+}
+
+#dr{
+    position: relative;
+    display: inline;
+    margin-left: 5%;
+    width:20%;
+    margin-top: 5%;
+    margin-left: 40%;
+
+}
+
+#txtestsalud{
+    position: relative;
+    display: inline-block;
+    color: #345c66;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+
+
+#formestsalud{
+    position: relative;
+    display: inline-block;
+    opacity: 0.7;
+    text-align:center;
+    width:90%;
+    margin-left: 5%;
+}
+#lblform{
+    color: #3c6db0;
+    position: relative;
+    display: inline-block;
+    font-size: 110%;
+
+}
+
+#txtform{
+   
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}

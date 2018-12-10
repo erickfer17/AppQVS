@@ -1,0 +1,72 @@
+<!--
+  Generated template for the Habito1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color='primary'>
+    <ion-title>Beber Agua Natural</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content id="page-habito1" [ngStyle]="{'background-image': 'url(' + fondo + ')'}">
+    <input src="./assets/imgs/tablatest.png" id="tablatest"  type="image" (click)="goToTest()"tooltip="¡Sino has realizado tu test es hora! ¡Adelante!" [active]="estado" duration=3000 arrow positionV='bottom'>
+ 
+  <h5 id="textomenu1">ACTIVIDADES DIARIAS
+    <br>
+    <strong>BEBER AGUA NATURAL</strong>
+  </h5>
+  <div id="tablaactividad" style="margin-top:-5%" (click)="goToActividad1()" [class.button-disabled]="true">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 01 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad" style="margin-top:-5%" (click)="goToActividad2()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 02 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad" (click)="goToActividad3()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 03 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad" (click)="goToActividad4()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 04 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad"(click)="goToActividad5()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 05 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad"(click)="goToActividad6()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 06 de 7</strong>
+    </h6>
+  </div>
+  <div id="tablaactividad" style="margin-left:37.5%" (click)="goToActividad7()">
+    <img id="rectangulo" src="./assets/imgs/rectangulo_agua.png">
+    <img id="bote" src="./assets/imgs/agua.png">
+    <h6 id="dias">
+      <strong>Día 07 de 7</strong>
+    </h6>
+  </div>
+</ion-content>

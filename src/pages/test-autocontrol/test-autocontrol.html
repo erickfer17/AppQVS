@@ -1,0 +1,28 @@
+<!--
+  Generated template for the TestAutocontrolPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content id="page-test-autocontrol">
+  <img id="esalud" src="./assets/imgs/evaluatusaludb.png">
+    <br><br><br>
+    
+    <h4 class="pregunta2"><strong>{{pregunta}}</strong></h4>
+    
+    <div style="position:relative; width:100%; top:5%">
+    <div id="testagua">
+      <img id="imgtestagua"  [src]="imagenagua">
+    </div>
+    
+    <div id="testagua" style="top:50%">
+      <button id="btnagua" ion-button color="light" (click)="No()"><strong>No/nunca</strong></button><br>
+      <br>
+      <button id="btnagua" ion-button color="light" (click)="Rara()"><strong>Rara Vez</strong> </button><br>
+      <br>
+      <button id="btnagua"ion-button color="light"(click)="Aveces()"><strong> A veces</strong></button><br><br>
+      <button id="btnagua"ion-button color="light" (click)="Frecuentemente()"><strong>Frecuentemente</strong></button> <br><br>
+      <button id="btnagua"ion-button color="light"(click)="Si()"><strong> Si/siempre </strong></button>
+    </div>
+  </div>
+</ion-content>

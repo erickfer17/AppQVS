@@ -1,0 +1,47 @@
+#page-menu-principal {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: 'center';
+}
+
+.logosmenu{
+    margin-top: 3%;
+    width: 100%;
+    height: 25%;
+    //border-color: black;
+//border-style: solid;
+    position: relative;
+    display: inline-block;
+    text-align: 'center';
+    justify-content: center;
+
+  }
+#logo1{
+    
+    width:  45%;
+    position: relative;
+    margin-left: 3%;
+    display: inline-block;
+   
+}
+
+#logo2{
+    position: relative;
+    width:  45%;    
+    
+    display: inline-block;
+    
+}
+
+
+#CS{
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+    width: 40%;
+  }

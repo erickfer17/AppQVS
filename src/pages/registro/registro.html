@@ -1,0 +1,121 @@
+<!--
+  Generated template for the RegistroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color='primary'>
+    <ion-title>Registro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content id="page-registro">
+    <ion-content id="contenedor-registro">
+
+      
+        <form id="form1" [formGroup]="datos" (ngSubmit)="signup()">
+          <ion-list >
+              <ion-item>
+                  <ion-label color="primary"  floating>Nombre</ion-label>
+                  <ion-input   type="text" formControlName="nombre"></ion-input>
+                </ion-item>
+                <ion-item *ngIf="datos.get('nombre').errors && datos.get('nombre').dirty">
+                  <p color= "danger" *ngIf="datos.get('nombre').hasError('required')">*Campo Requerido</p>
+                  <p color="danger" *ngIf="datos.get('nombre').hasError('pattern')">*Solo se admiten letras</p>
+                </ion-item>
+                <ion-item>
+                    <ion-label color="primary"  floating>Edad</ion-label>
+                    <ion-input type="number" formControlName="edad"></ion-input>
+                  </ion-item>
+                  <ion-item *ngIf="datos.get('edad').errors && datos.get('edad').dirty">
+                    <p color = "danger" *ngIf="datos.get('edad').hasError('required')">*Campo Requerido</p>
+                  </ion-item>
+        
+                  
+                  <ion-item>
+                      <ion-label color="primary" floating>Sexo</ion-label>
+                      <ion-select formControlName="sexo">
+                          <ion-option value="masculino">Masculino</ion-option>
+                          <ion-option value="femenino">Femenino</ion-option>
+                         
+                        </ion-select>
+                    </ion-item>
+                    <ion-item *ngIf="datos.get('sexo').errors && datos.get('sexo').dirty">
+                      <p color = "danger" *ngIf="datos.get('sexo').hasError('required')">*Campo Requerido</p>
+                    </ion-item>
+        
+                    <ion-item>
+                        <ion-label color="primary" floating>Correo</ion-label>
+                        <ion-input type="email"  formControlName="email"></ion-input>
+                      </ion-item>
+                      <ion-item *ngIf="datos.get('email').errors && datos.get('email').dirty">
+                        <p color = "danger" *ngIf="datos.get('email').hasError('required')">*Campo Requerido</p>
+                        <p color="danger" *ngIf="datos.get('email').hasError('email')">*Introduce un correo electronico valido</p>
+                      </ion-item>
+
+                    <ion-item>
+                        <ion-label color="primary" floating>Password</ion-label>
+                        <ion-input type="password"  formControlName="password"></ion-input>
+                      </ion-item>
+                      <ion-item *ngIf="datos.get('password').errors && datos.get('password').dirty">
+                        <p color=  "danger" *ngIf="datos.get('password').hasError('minLength')">*Debe tener al menos 6 caracteres</p>
+                        <p color = "danger" *ngIf="datos.get('password').hasError('required')">*Campo Requerido</p>
+                        
+                      </ion-item>
+                      <ion-item>
+                          <ion-label color="primary" floating>Pais</ion-label>
+                          <ion-input  formControlName="pais"></ion-input>
+                        </ion-item>
+                        <ion-item *ngIf="datos.get('pais').errors && datos.get('pais').dirty">
+                          <p color = "danger" *ngIf="datos.get('pais').hasError('required')">*Campo Requerido</p>
+                          <p color="danger" *ngIf="datos.get('pais').hasError('pattern')">*Solo se admiten letras</p>
+                        </ion-item>
+        
+                        <ion-item>
+                            <ion-label color="primary" floating>Estado</ion-label>
+                            <ion-input formControlName="estado"></ion-input>
+                          </ion-item>
+                          <ion-item *ngIf="datos.get('estado').errors && datos.get('estado').dirty">
+                            <p color = "danger" *ngIf="datos.get('estado').hasError('required')">*Campo Requerido</p>
+                            <p color="danger" *ngIf="datos.get('estado').hasError('pattern')">*Solo se admiten letras</p>
+                          </ion-item>
+                          <ion-item>
+                              <ion-label color="primary" floating>Municipio</ion-label>
+                              <ion-input formControlName="municipio"></ion-input>
+                            </ion-item>
+                            <ion-item *ngIf="datos.get('municipio').errors && datos.get('municipio').dirty">
+                              <p color = "danger" *ngIf="datos.get('municipio').hasError('required')">*Campo Requerido</p>
+                              <p color="danger" *ngIf="datos.get('municipio').hasError('pattern')">*Solo se admiten letras</p>
+                            </ion-item>
+
+                            <ion-item>
+                            <ion-label color="primary" floating>Ciudad</ion-label>
+                            <ion-input formControlName="ciudad"></ion-input>
+                          </ion-item>
+                          <ion-item *ngIf="datos.get('ciudad').errors && datos.get('ciudad').dirty">
+                            <p color = "danger" *ngIf="datos.get('ciudad').hasError('required')">*Campo Requerido</p>
+                            <p color="danger" *ngIf="datos.get('ciudad').hasError('pattern')">*Solo se admiten letras</p>
+                          </ion-item>
+                         
+                        <ion-item>
+                        <ion-label color="primary" floating>Religion</ion-label>
+                        <ion-input formControlName="religion"></ion-input>
+                      </ion-item>
+                      <ion-item *ngIf="datos.get('religion').errors && datos.get('religion').dirty">
+                        <p color = "danger" *ngIf="datos.get('religion').hasError('required')">*Campo Requerido</p>
+                        <p color="danger" *ngIf="datos.get('religion').hasError('pattern')">*Solo se admiten letras</p>
+                      </ion-item>
+        
+                      <ion-item>
+                          <button ion-button block  type="submit" [disabled]="!datos.valid" >REGISTRAR</button>
+                      </ion-item>
+                      <p id="AvisoPrivacidad" style="font-size:0.9em"><strong><a href="http://ciafeb.com/" id="AvisoPrivacidad">AVISO DE PRIVACIDAD.</a></strong> Ponemos a tus disposición los términos del aviso de privacidad de nuestros servicios.</p>
+              </ion-list>
+        </form>
+              
+     </ion-content>
+</ion-content>

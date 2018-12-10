@@ -1,0 +1,86 @@
+#page-compromisohbt1{
+    background-color: #26c9dc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    color: Black;
+    width: 80% !important;
+    height:55% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    border: white 1px;
+    border-style: solid;
+    border-color: white;   
+    
+}
+
+#logoscompromiso{
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 60%;
+    
+
+}
+
+#logohabitoscompromiso{
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 30%;
+    
+}
+#logocompromiso{
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 15%;
+    margin-top: 3%;
+    
+}
+
+#compromiso1txt{
+    position: relative;
+    display: inline-block;
+    margin-right: 5%;
+    text-align: right;
+    width: 55%;
+    font-size: 110%;
+    float: right;
+
+}
+
+#imgbotella{
+    display: inline-block;
+    position: absolute;
+    width: 28%;
+    bottom:  0px;
+    left: 2%;
+}
+ #btnaceptocompromiso{
+     position: relative;
+     display: inline-block;
+     float: right;
+     width: 45%;
+     margin-right: 8%
+
+ }
+
+ .modal-backdrop-bg {
+    transition: opacity 300ms ease-in-out;
+    -webkit-transition: opacity 300ms ease-in-out;
+    background-color: #000;
+    opacity: 0;
+}
+
+.active .modal-backdrop-bg {
+    opacity: 0.5;
+}
+ 

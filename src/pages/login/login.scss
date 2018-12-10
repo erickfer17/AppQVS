@@ -1,0 +1,118 @@
+#page-login {
+    
+    background-image:url('../assets/imgs/flogin.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+#contenedor-credenciales{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 65%;
+    height: 65%;
+    position: relative;
+}
+
+
+#texto{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    color: white;
+    text-align: center;
+    width: 100%;
+   
+    
+}
+
+#texto2{
+    position: relative;
+    margin-block-start: initial;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+    //border-color: black;
+    //border-style: solid;
+    
+}
+
+
+#credenciales{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e3c8d8;
+    justify-content: center;
+    opacity: 0.8;
+    width: 90%;
+    height: 43%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    display: table;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+#formulario{
+    margin-top: 5%;
+    
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: table-cell;
+    
+}
+
+#btnacceder{
+    background-color:#870f53; 
+    color:white; 
+    width: 60%;
+    border-radius: 0px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.txt{
+    width: 80%;
+    padding:4%;
+    font-size: 1em;
+    background-color: white;
+    font-family: FontAwesome, "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    
+}
+
+.btn{
+    margin-top: 3%;
+    color: white;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 90%; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    display: table;
+    align-content: center;
+    text-align: center;
+    border-radius: 0;
+}
+

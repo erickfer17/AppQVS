@@ -1,0 +1,28 @@
+#page-test {
+    
+    background-image:url('../assets/imgs/ftest.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.test{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+ 
+    margin: auto;
+  
+}
+
+.logostest{
+    position: relative;
+   
+    width:100%;
+}

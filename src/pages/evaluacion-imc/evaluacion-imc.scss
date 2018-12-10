@@ -1,0 +1,43 @@
+#page-IMC {
+    background-image:url('../assets/imgs/fIMC.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+}
+
+
+#evaluatusalud{
+    width:75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10%;
+    margin-left: 12.5%;
+    position: absolute;
+    
+}
+
+#textoIMC{
+    margin-top: 40%;
+    text-align: center;
+    color:#96005a;
+}
+
+#imctexto{
+    width: 75%;
+    text-align: center;
+    margin-left: 12.5%;
+    font-size: 120%;
+}
+
+
+ #btnCalculoIMC{
+    line-height: 120%;
+    position: relative;
+    width: 30%;
+    background-color: #96005a;
+    margin-left: 35%;
+ }
+

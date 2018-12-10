@@ -1,0 +1,95 @@
+#page-resultadoimc {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#evaluatusaludb{
+    position:initial;
+    width: 60%;
+    margin-top: 5%;
+    
+}
+
+#holaimc{
+    position: relative;
+    color: white;
+    width: 30%;
+    
+    margin: auto;
+    top: 1%;
+}
+
+#manocorazon{
+    position: absolute;
+    width: 35%;
+    margin-left: -15%;
+    text-align: center;
+}
+
+#manocruz{
+    position: absolute;
+    width: 30%;
+    margin-left: -80%;
+    margin-top: 30%;
+}
+
+#peso{
+    position: relative;
+    margin-top: 8%;
+    width: 18%;
+    margin-left: 15%;
+}
+#tabla{
+    position: absolute;
+    width: 32%;
+    height: 23%;
+    background-image: url('../assets/imgs/IMC_tabla.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    margin-left: 13%;
+   top: 37%;
+   text-align: center;
+}
+
+#tuimc{
+    color: white;
+    margin-top: 30%;
+    margin-left: -5%;
+}
+
+#condicion{
+    margin-top: -1%;
+    margin-left: 32%;
+    font-size: 120%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+#lista{
+    margin-top: 2%;
+   
+    position: relative;
+    
+    background: transparent;
+    text-align: center;
+   
+}
+
+
+#recomendacion{
+    color:white;
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}

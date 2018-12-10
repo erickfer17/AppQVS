@@ -1,0 +1,70 @@
+<!--
+  Generated template for the SaludPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color='primary'>
+    <ion-title>Evalua Tu Salud</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content id="page-salud" [ngStyle]="{'background-image': 'url(' + fondo + ')'}">
+  <img src="./assets/imgs/estadosalud.png" id="estSalud">
+  <p id="txtestsalud">Puedes obtener los siguientes datos en tu centro de salud, hospital o laboratorio de confianza. Introdúcelos en los siguientes campos y podrás obtener una evaluación de tu estado de salud.</p>
+  <ion-list id="formestsalud">
+    <ion-item col-6 id="txtform" style="width: 49%" tooltip="¡Comencemos! ¡Ingresa tus datos!" [active]="estado" duration=4000 arrow positionV='top'>
+        <ion-label stacked id="lblform"><strong>Presión Arterial</strong></ion-label>
+        <ion-input type="number"  placeholder="mmHg"> </ion-input>
+      </ion-item>
+     
+      <ion-item col-4 id="txtform" style="width: 49%">
+        <ion-label stacked id="lblform"><strong></strong></ion-label>
+        <ion-input type="number" id="txtform"  placeholder="/   mmHg"> </ion-input>
+      </ion-item>
+
+
+      <ion-item col-6 id="txtform" >
+        <ion-label stacked id="lblform"><strong>Glucosa</strong></ion-label>
+        <ion-input type="number"  placeholder="mg/dl"> </ion-input>
+      </ion-item>
+      
+
+      <ion-item col-6 id="txtform" >
+        <ion-label stacked id="lblform"><strong>Colesterol Total</strong></ion-label>
+        <ion-input type="number"  placeholder="mg/dl"> </ion-input>
+      </ion-item>
+
+      <ion-item col-6 id="txtform" >
+        <ion-label stacked id="lblform"><strong>Colesterol HDL</strong></ion-label>
+        <ion-input type="number"  placeholder="mg/dl"> </ion-input>
+      </ion-item>
+    
+      <ion-item col-6 id="txtform" >
+        <ion-label stacked id="lblform"><strong>Colesterol LDL</strong></ion-label>
+        <ion-input type="number"  placeholder="mg/dl"> </ion-input>
+      </ion-item>
+
+      <ion-item col-6 id="txtform" >
+        <ion-label stacked id="lblform"><strong>Triglicéridos</strong></ion-label>
+        <ion-input type="number"  placeholder="mg/dl"> </ion-input>
+      </ion-item>
+        
+        <ion-item col-6 id="txtform">
+            <ion-label id="lblform" stacked><strong>Sexo</strong></ion-label>
+            <ion-select >
+                <ion-option value="masculino">Masculino</ion-option>
+                <ion-option value="femenino">Femenino</ion-option>
+               
+              </ion-select>
+          </ion-item>
+          
+          
+  </ion-list>
+  <button col-3 ion-button block style="margin-left: 37.5%" >CALCULAR</button>
+  <img src="./assets/imgs/dr1.png" id="dr">
+</ion-content>

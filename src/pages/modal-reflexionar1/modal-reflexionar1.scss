@@ -1,0 +1,65 @@
+page-modal-reflexionar1 {
+    background-color: #26c9dc;
+    position: relative;
+    display: inline-block;
+    color: Black;
+    width: 80% !important;
+    height:60% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    border: white 1px;
+    border-style: solid;
+    border-color: white;  
+    background-size: cover; 
+    
+    ion-content{
+    
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100% !important;
+    position: relative;
+    }
+    #parareflexionarmodal{
+        position: relative;
+        display: inline-block;
+        width: 50%;
+        
+    }
+    #logohpr{
+        position: relative;
+        display: inline-block;
+        width: 18%;
+        
+    }
+
+    #logopr{
+        position: relative;
+        display: inline-block;
+        width: 25%;
+    }
+
+    #txtreflexion{
+        position: relative;
+        display: inline-block;
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    #imgreflexion{
+        position: relative;
+        display: inline-block;
+        width: 35%;
+        //margin-top: 15%;
+        float: right;
+        margin-right: 1%;
+    }
+  
+
+
+
+}

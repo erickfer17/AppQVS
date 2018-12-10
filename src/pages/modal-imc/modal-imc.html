@@ -1,0 +1,48 @@
+<!--
+  Generated template for the ModalImcPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Evalua tu IMC</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content id="IMC-modal">
+    <img src="./assets/imgs/evaluatusalud.png" id="evaluatusalud">
+    <h3 id="textoIMC">INTRODUCE TUS DATOS</h3>
+
+    <ion-list id="form2">
+        <ion-item>
+            <ion-label style="color:#96005a; font-size:110%"  stacked><strong>Peso</strong></ion-label>
+            <ion-input type="number" placeholder="Kilogramos"  [(ngModel)]="IMC.peso"></ion-input>
+
+          </ion-item>
+  
+          <ion-item>
+              <ion-label style="color:#96005a; font-size:110%"  stacked><strong>Talla</strong></ion-label>
+              <ion-input type="number" placeholder="Metros" [(ngModel)]="IMC.talla"></ion-input>
+            </ion-item>
+            
+          
+            <ion-item>
+                <ion-label style="color:#96005a; font-size:110%" stacked><Strong>Cintura</Strong></ion-label>
+                <ion-input type="number" placeholder="Centimetros" [(ngModel)]="IMC.cintura" ></ion-input>
+              </ion-item>
+            
+            <ion-item>
+                <ion-label style="color:#96005a; font-size:110%" stacked><strong>Sexo</strong></ion-label>
+                <ion-select [(ngModel)]="IMC.sexo">
+                    <ion-option value="masculino">Masculino</ion-option>
+                    <ion-option value="femenino">Femenino</ion-option>
+                   
+                  </ion-select>
+              </ion-item>
+
+              <button ion-button block (click)="calcularIMC()">CALCULAR</button>
+      </ion-list>
+</ion-content>

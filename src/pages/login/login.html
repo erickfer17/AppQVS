@@ -1,0 +1,40 @@
+<!--
+  Generated template for the LoginPage page.
+  Generado por Erick Barahona en el depto. Desarrollo financiero de la Universidad de Navojoa
+  para mayor informacion contacto: 1140118@unav.edu.mx
+
+  
+-->
+
+<ion-header>
+
+
+
+</ion-header>
+
+
+<ion-content id="page-login">
+ <div id="contenedor-credenciales">
+  <p id="texto" style="font-size:1.6em"><strong>UNA AVENTURA<br>HACIA LA VIDA REAL</strong><br></p>
+  <p id="texto2" style="font-size:1em">RENUEVA EL DISEÑO DE TU RUTINA<br>
+  DIARIA DE FORMA SALUDABLE</p>
+  
+  <div id="credenciales">
+    <form id="formulario" action="/#">
+      <p style="color:#870f53; font-size:1.1em"><strong>¡Continúa la Aventura!</strong></p>
+
+      <input type="email" class="txt"  [(ngModel)]="userData.correo" name = "mail" placeholder='&#xf003;   CORREO'>
+      <br>
+      <br>
+      <input type="password" class="txt"  [(ngModel)]="userData.password" name ="pass"placeholder='&#xf023;   CONTRASEÑA'>
+      <br><br>
+
+      <button id="btnacceder" (click)="doLogin()">"ACCEDER"</button>
+    </form> 
+    
+  </div>
+  
+  <button class="btn" style="background-color:#5d9632" (click)="goRegistro()">"REGISTRARME"</button> 
+  <button class="btn" style="background-color:#e60991">"OLVIDÉ MI CONTRASEÑA"</button> 
+</div>
+</ion-content>

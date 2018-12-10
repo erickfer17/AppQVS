@@ -1,0 +1,50 @@
+#page-agua {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    text-align: 'center';
+}
+
+#logoblancoagua{
+
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin-left:40%;
+    margin-top: 5%;    
+}
+
+#aguatitulo{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-left:15%;
+    color:white;
+    text-align: center;
+}
+
+#txtdescripcionagua{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-left:15%;
+color: white;
+text-align: center;
+padding: 3%;
+background: rgba($color: #0274b0, $alpha: 0.6);
+}
+
+#txtdescripcionagua2{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-left:15%;
+color: white;
+text-align: center;
+
+}
