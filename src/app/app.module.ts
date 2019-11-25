@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { TestDescansoadecuadoPage } from './../pages/test-descansoadecuado/test-descansoadecuado';
 import { TestSerfelizPage } from './../pages/test-serfeliz/test-serfeliz';
 import { TestBiencomerPage } from './../pages/test-biencomer/test-biencomer';
@@ -10,10 +11,13 @@ import { ModalTips1Page } from './../pages/modal-tips1/modal-tips1';
 import { ModalReflexionar1Page } from './../pages/modal-reflexionar1/modal-reflexionar1';
 import { IonicStorageModule } from '@ionic/storage';
 import {TooltipsModule} from 'ionic-tooltips'
+=======
+>>>>>>> Initial commit
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+<<<<<<< HEAD
 import { HttpModule, Http } from '@angular/http';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -48,10 +52,21 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { ScreenOrientation } from '@ionic-native/screen-orientation';
 import { HTTP } from '@ionic-native/http';
 
+=======
+
+import { AboutPage } from '../pages/about/about';
+import { ContactPage } from '../pages/contact/contact';
+import { HomePage } from '../pages/home/home';
+import { TabsPage } from '../pages/tabs/tabs';
+
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+>>>>>>> Initial commit
 
 @NgModule({
   declarations: [
     MyApp,
+<<<<<<< HEAD
     LoginPage,
     SlidePage,
     SaludoPage,
@@ -97,10 +112,21 @@ import { HTTP } from '@ionic-native/http';
     BrowserAnimationsModule,
     NoopAnimationsModule
    
+=======
+    AboutPage,
+    ContactPage,
+    HomePage,
+    TabsPage
+  ],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp)
+>>>>>>> Initial commit
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+<<<<<<< HEAD
     LoginPage,
     SlidePage,
     SaludoPage,
@@ -140,6 +166,14 @@ import { HTTP } from '@ionic-native/http';
     RestProvider,
     ScreenOrientation,
     InAppBrowser,
+=======
+    AboutPage,
+    ContactPage,
+    HomePage,
+    TabsPage
+  ],
+  providers: [
+>>>>>>> Initial commit
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

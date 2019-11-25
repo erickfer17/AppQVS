@@ -34,7 +34,11 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
+<<<<<<< HEAD
   primary:    #96005a,
+=======
+  primary:    #488aff,
+>>>>>>> Initial commit
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -42,27 +46,44 @@ $colors: (
 );
 
 
+<<<<<<< HEAD
 
 //Variables Multiplataforma
 
 
 
+=======
+>>>>>>> Initial commit
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
+<<<<<<< HEAD
 $toolbar-ios-button-border-radius:0px;
+=======
+
+>>>>>>> Initial commit
 
 
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
+<<<<<<< HEAD
 $toolbar-md-button-border-radius:0px;
+=======
+
+
+
+>>>>>>> Initial commit
 
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
+<<<<<<< HEAD
 $toolbar-wp-button-border-radius:0px;
+=======
+
+>>>>>>> Initial commit
 
 
 

@@ -1,0 +1,51 @@
+<!--
+  Generated template for the InfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header >
+  <ion-navbar color='primary'>
+    <ion-title>ACERCA DE</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="Cerrar()">
+          <ion-icon name="close" color="white"></ion-icon>
+        </button>
+      </ion-buttons> 
+  </ion-navbar>
+</ion-header> 
+
+<ion-content padding style="color:white;">
+    <input id="UNAV" src="./assets/imgs/LogoISC.png" type="image" (click)="goToISC()"/>
+    <input id="UNAV" src="./assets/imgs/LogoUMN.png" type="image" (click)="goToUMN()"/>
+    
+      <ion-item id="ionitem">
+        <label for="sw" style="color:rgb(117, 0, 82)"><ion-icon name="globe"></ion-icon> <strong>SITIOS WEB</strong> </label> <br>
+        <li><a id="sw" href="https://adventistasumn.org/">Unión Mexicana del Norte</a></li>
+        <li>
+          <a id="sw" href="https://unav.edu.mx/">Universidad de Navojoa</a>
+        </li>
+        
+        <li><a id="sw" href="http://isc.unav.edu.mx">Escuela de ISC</a></li>
+      
+      </ion-item>
+      <ion-item id="ionitem">
+          <label for="sw" style="color:rgb(117, 0, 82)"> <ion-icon name="logo-facebook"></ion-icon> <strong>FACEBOOK</strong> </label> <br>
+           
+            <li><a id="sw" href="https://www.facebook.com/adventistasumn/">Unión Mexicana del Norte</a></li>
+           
+            <li><a id="sw" href="https://www.facebook.com/UniNavojoa/">Universidad de Navojoa</a></li>
+
+            <li><a id="sw" href="https://www.facebook.com/EISCUNAV/">Escuela de ISC</a></li>
+        </ion-item>
+        <ion-item id="ionitem">
+            <label for="sw" style="color:rgb(117, 0, 82)"> <ion-icon name="code"></ion-icon> <strong>DESARROLLADO POR</strong> </label> <br>
+              <p style="color:rgb(117, 0, 82)">Escuela de ISC de la UNAV<br> 
+               <strong>Programador: <br> </strong> Erick Fer. Barahona Rodríguez<br>
+
+              </p>
+          </ion-item>
+      
+<br>
+
+</ion-content>
