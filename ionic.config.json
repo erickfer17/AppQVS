@@ -2,11 +2,7 @@
   "name": "AppQVS",
   "app_id": "",
   "type": "ionic-angular",
-<<<<<<< HEAD
   "integrations": {
     "cordova": {}
   }
-=======
-  "integrations": {}
->>>>>>> Initial commit
 }

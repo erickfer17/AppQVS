@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { InstruccionesPage } from './../pages/instrucciones/instrucciones';
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
@@ -11,20 +10,11 @@ import { TestPage } from '../pages/test/test';
 import { EvaluacionPage } from '../pages/evaluacion/evaluacion';
 import { MenuPrincipalPage } from '../pages/menu-principal/menu-principal';
 
-=======
-import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-
-import { TabsPage } from '../pages/tabs/tabs';
->>>>>>> Initial commit
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-<<<<<<< HEAD
   rootPage:any = SlidePage;
   loader: any;
 
@@ -64,16 +54,4 @@ export class MyApp {
        this.loader.present();
     
      }
-=======
-  rootPage:any = TabsPage;
-
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
-    platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      statusBar.styleDefault();
-      splashScreen.hide();
-    });
-  }
->>>>>>> Initial commit
 }
